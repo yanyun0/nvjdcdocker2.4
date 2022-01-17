@@ -179,7 +179,7 @@ cd  /root/nolanjdc
 ```
 sudo docker run   --name nolanjdc -p 5701:80 -d  -v  "$(pwd)":/app \
 -v /etc/localtime:/etc/localtime:ro \
--it --privileged=true  nolanhzy/nvjdc:latest
+-it --privileged=true  awyun/nolanjdc:latest
 ```
 注意由于我懒 不想更新镜像 /etc/localtime
 
